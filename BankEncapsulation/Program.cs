@@ -6,11 +6,11 @@ namespace BankEncapsulation
     {
         static void Main(string[] args)
         {
-            var myAccount = new BankAccount();
+            var account = new BankAccount();
 
-            Console.WriteLine(myAccount.GetBalance());
-            myAccount.Deposit(300);
-            Console.WriteLine(myAccount.GetBalance());
+            Console.WriteLine(account.GetBalance());
+            account.Deposit(300);
+            Console.WriteLine(account.GetBalance());
         }
     }
 }
