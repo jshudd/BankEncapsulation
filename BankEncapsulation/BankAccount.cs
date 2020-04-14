@@ -3,17 +3,19 @@ namespace BankEncapsulation
 {
     public class BankAccount
     {
-        private double balance = 0;
-
-        public void Deposit(double depositAmount)
+        public BankAccount()
         {
-            balance += depositAmount;
         }
+            private double balance = 0;
 
-        public double GetBalance()
-        {
-            return balance;
-        }
+            public void Deposit(double depositAmount)
+            {
+               balance += depositAmount;
+            }
 
-     }
+            public double GetBalance()
+            {
+                return balance;
+            }
+    }
 }
